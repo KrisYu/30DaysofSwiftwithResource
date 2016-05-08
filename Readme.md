@@ -13,7 +13,7 @@ This project is a pure mimic of Allen Wang's [30DaysofSwift][id], I'm trying to 
 
 
 
-![](Project 01 - SimpleStopWatch.gif =300x )
+![](SimpleStopWatch.gif =300x )
 
 
 Useful links:
