@@ -11,9 +11,7 @@ This project is a pure mimic of Allen Wang's [30DaysofSwift][id], I'm trying to 
 ###Project 01 - SimpleStopWatch
 
 
-
-
-![](SimpleStopWatch.gif =300x )
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2001%20-%20SimpleStopWatch/project%2001SimpleStopWatch.gif?raw=true)
 
 
 Useful links:
