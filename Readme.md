@@ -30,5 +30,16 @@ It took me some time figure out the `scheduledTimerWithTimeInterval` function. s
 ###Project 02 - Custom Font
 
 
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2002%20-%20CustomFont/Project02%20-%20CustomFont.gif?raw=true)
 
 Custom Font in swift : <https://grokswift.com/custom-fonts/>
+
+UITableView : make sure you understand delegate, datasource before you try to implement this. maybe read here, actually I myself didn't understand them quite well.
+
+<https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Lesson7.html#//apple_ref/doc/uid/TP40015214-CH8-SW1>
+
+
+
+Possible improvements :  make a Custom UIButton, then apply the change font button as custom UIButton. like here ?
+
+<https://www.raywenderlich.com/90690/modern-core-graphics-with-swift-part-1>
