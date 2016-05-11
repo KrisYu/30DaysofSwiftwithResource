@@ -75,5 +75,18 @@ Resources:
 <https://www.youtube.com/watch?v=994Hsi1zs6Q>
 
 
+###Project 05 - CarouselEffect
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2005%20-%20CarouselEffect/Project%2005%20-%20CarouselEffect.gif?raw=true)
 
+
+Resources:
+
+UICollectionView is just like UITableView, you could make it if you know UITableView well, the whole tutorial can be found here:
+
+<https://www.youtube.com/watch?v=JG7mWFcU0vk>
+
+
+What impressed me is that the tutorial did things in the unusual way in this tutorial, like use Extension and didset to change UI.
+
+I implement it more the common and easier way.
 
