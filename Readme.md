@@ -60,5 +60,20 @@ Also notice here used a video struct, not a class.
  
 
 
+###Project 04 - Snap Chat Menu
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2004%20-SnapChatMenu/Project%2004%20-SnapChatMenu.gif?raw=true)
+
+
+
+I have problems with AutoLayout, the constrains, my project is so ugly compared with the original one.
+
+Resources: 
+
+<https://www.youtube.com/watch?v=1_daE3IL_1s>
+
+<https://www.youtube.com/watch?v=994Hsi1zs6Q>
+
+
 
 
