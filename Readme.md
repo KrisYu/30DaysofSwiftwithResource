@@ -90,3 +90,18 @@ What impressed me is that the tutorial did things in the unusual way in this tut
 
 I implement it more the common and easier way.
 
+Found some hints why my view is ugly, for image fill, I should aspect fill.
+
+<http://blog.csdn.net/annkie/article/details/49247755>
+
+
+### Project 06 - Find My Location
+
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2006%20-%20FindMyLocation/Project%2006%20-%20FindMyLocation.gif?raw=true)
+
+It took me some time to figure out why his App is looks so gorgeous, then I found out he used background image, blur effect, nice button background image, designer behavior.
+
+Video tutorial: <https://www.youtube.com/watch?v=kkVI3njOlqU>
+
+There're many different coding styles can be used to call the CLLocationManager, just make sure you add the plist and also save the battery.
