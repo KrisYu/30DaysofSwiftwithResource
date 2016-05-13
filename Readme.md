@@ -105,3 +105,19 @@ It took me some time to figure out why his App is looks so gorgeous, then I foun
 Video tutorial: <https://www.youtube.com/watch?v=kkVI3njOlqU>
 
 There're many different coding styles can be used to call the CLLocationManager, just make sure you add the plist and also save the battery.
+
+
+### Project 07 - Pull To Refresh
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2007%20-%20PullToRefresh/Project%2007%20-%20PullToRefresh.gif?raw=true)
+
+Video tutorial: <https://www.youtube.com/watch?v=F-7xwYh1CS4>
+
+If you have a tableViewController, you can just get RefreshControl in this way.
+<https://medium.com/ios-os-x-development/ios-tips-pull-to-refresh-in-less-than-30-seconds-ef884520f0df#.lhklb6ftj>
+
+If you just have a tableView without controller, you can get add the RefreshControl this way.
+<http://stackoverflow.com/questions/10291537/pull-to-refresh-uitableview-without-uitableviewcontroller>
+
+
+For UI, a lot of things you can set both in code and Interface builder, I set some them in Interface Builder.
