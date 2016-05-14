@@ -113,7 +113,7 @@ There're many different coding styles can be used to call the CLLocationManager,
 
 Video tutorial: <https://www.youtube.com/watch?v=F-7xwYh1CS4>
 
-If you have a tableViewController, you can just get RefreshControl in this way.
+If you have a tableViewController, you can just get RefreshControl in this way. get it in interface builder.
 <https://medium.com/ios-os-x-development/ios-tips-pull-to-refresh-in-less-than-30-seconds-ef884520f0df#.lhklb6ftj>
 
 If you just have a tableView without controller, you can get add the RefreshControl this way.
@@ -121,3 +121,13 @@ If you just have a tableView without controller, you can get add the RefreshCont
 
 
 For UI, a lot of things you can set both in code and Interface builder, I set some them in Interface Builder.
+
+
+### Project 08 - RandomGradientColorMusic
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2008%20-%20%20RandomGradientColorMusic/Project%2008%20-%20GradientColorMusic%20.gif?raw=true)
+
+
+A great article about CALayer, including gradient layer : <https://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples>
+
+UI vs CG : CG is for CoreGraphics, it feels more to the core OS, UI feels itself   already packed for the developer.
