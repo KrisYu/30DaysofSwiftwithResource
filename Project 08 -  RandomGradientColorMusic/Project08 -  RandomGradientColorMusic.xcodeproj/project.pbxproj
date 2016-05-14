@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C89C96A61CE76E8900FAF81E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C96A51CE76E8900FAF81E /* AppDelegate.swift */; };
+		C89C96A81CE76E8900FAF81E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89C96A71CE76E8900FAF81E /* ViewController.swift */; };
+		C89C96AB1CE76E8900FAF81E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C96A91CE76E8900FAF81E /* Main.storyboard */; };
+		C89C96AD1CE76E8900FAF81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89C96AC1CE76E8900FAF81E /* Assets.xcassets */; };
+		C89C96B01CE76E8900FAF81E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89C96AE1CE76E8900FAF81E /* LaunchScreen.storyboard */; };
+		C89C96B81CE7701500FAF81E /* zhejiangwenzhou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C89C96B71CE7701500FAF81E /* zhejiangwenzhou.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C89C96A21CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project08 -  RandomGradientColorMusic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89C96A51CE76E8900FAF81E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C89C96A71CE76E8900FAF81E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C89C96AA1CE76E8900FAF81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C89C96AC1CE76E8900FAF81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C89C96AF1CE76E8900FAF81E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C89C96B11CE76E8900FAF81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89C96B71CE7701500FAF81E /* zhejiangwenzhou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhejiangwenzhou.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C89C969F1CE76E8900FAF81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C89C96991CE76E8900FAF81E = {
+			isa = PBXGroup;
+			children = (
+				C89C96A41CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic */,
+				C89C96A31CE76E8900FAF81E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C89C96A31CE76E8900FAF81E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89C96A21CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89C96A41CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic */ = {
+			isa = PBXGroup;
+			children = (
+				C89C96A51CE76E8900FAF81E /* AppDelegate.swift */,
+				C89C96A71CE76E8900FAF81E /* ViewController.swift */,
+				C89C96A91CE76E8900FAF81E /* Main.storyboard */,
+				C89C96AC1CE76E8900FAF81E /* Assets.xcassets */,
+				C89C96AE1CE76E8900FAF81E /* LaunchScreen.storyboard */,
+				C89C96B11CE76E8900FAF81E /* Info.plist */,
+				C89C96B71CE7701500FAF81E /* zhejiangwenzhou.mp3 */,
+			);
+			path = "Project08 -  RandomGradientColorMusic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C89C96A11CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89C96B41CE76E8900FAF81E /* Build configuration list for PBXNativeTarget "Project08 -  RandomGradientColorMusic" */;
+			buildPhases = (
+				C89C969E1CE76E8900FAF81E /* Sources */,
+				C89C969F1CE76E8900FAF81E /* Frameworks */,
+				C89C96A01CE76E8900FAF81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project08 -  RandomGradientColorMusic";
+			productName = "Project08 -  RandomGradientColorMusic";
+			productReference = C89C96A21CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C89C969A1CE76E8900FAF81E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XueYu;
+				TargetAttributes = {
+					C89C96A11CE76E8900FAF81E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C89C969D1CE76E8900FAF81E /* Build configuration list for PBXProject "Project08 -  RandomGradientColorMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C89C96991CE76E8900FAF81E;
+			productRefGroup = C89C96A31CE76E8900FAF81E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89C96A11CE76E8900FAF81E /* Project08 -  RandomGradientColorMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C89C96A01CE76E8900FAF81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89C96B01CE76E8900FAF81E /* LaunchScreen.storyboard in Resources */,
+				C89C96B81CE7701500FAF81E /* zhejiangwenzhou.mp3 in Resources */,
+				C89C96AD1CE76E8900FAF81E /* Assets.xcassets in Resources */,
+				C89C96AB1CE76E8900FAF81E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C89C969E1CE76E8900FAF81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89C96A81CE76E8900FAF81E /* ViewController.swift in Sources */,
+				C89C96A61CE76E8900FAF81E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C89C96A91CE76E8900FAF81E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89C96AA1CE76E8900FAF81E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C89C96AE1CE76E8900FAF81E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89C96AF1CE76E8900FAF81E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C89C96B21CE76E8900FAF81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C89C96B31CE76E8900FAF81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C89C96B51CE76E8900FAF81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project08 -  RandomGradientColorMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.Project08----RandomGradientColorMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C89C96B61CE76E8900FAF81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project08 -  RandomGradientColorMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.Project08----RandomGradientColorMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C89C969D1CE76E8900FAF81E /* Build configuration list for PBXProject "Project08 -  RandomGradientColorMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C96B21CE76E8900FAF81E /* Debug */,
+				C89C96B31CE76E8900FAF81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89C96B41CE76E8900FAF81E /* Build configuration list for PBXNativeTarget "Project08 -  RandomGradientColorMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C96B51CE76E8900FAF81E /* Debug */,
+				C89C96B61CE76E8900FAF81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C89C969A1CE76E8900FAF81E /* Project object */;
+}
