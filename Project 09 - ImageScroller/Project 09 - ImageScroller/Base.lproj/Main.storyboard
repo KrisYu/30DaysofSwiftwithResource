@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_09___ImageScroller" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YYe-o2-Cgt">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve" translatesAutoresizingMaskIntoConstraints="NO" id="8gb-jK-9xz">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8gb-jK-9xz" firstAttribute="centerY" secondItem="YYe-o2-Cgt" secondAttribute="centerY" id="DaY-2D-dBB"/>
+                                    <constraint firstItem="8gb-jK-9xz" firstAttribute="leading" secondItem="YYe-o2-Cgt" secondAttribute="leading" id="FLf-cm-QX1"/>
+                                    <constraint firstAttribute="bottom" secondItem="8gb-jK-9xz" secondAttribute="bottom" id="O3H-PW-UaP"/>
+                                    <constraint firstItem="8gb-jK-9xz" firstAttribute="top" secondItem="YYe-o2-Cgt" secondAttribute="top" id="fMn-qO-C11"/>
+                                    <constraint firstAttribute="trailing" secondItem="8gb-jK-9xz" secondAttribute="trailing" id="szw-jt-PwX"/>
+                                    <constraint firstItem="8gb-jK-9xz" firstAttribute="centerX" secondItem="YYe-o2-Cgt" secondAttribute="centerX" id="uLo-3L-L5B"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="jOl-TY-WJQ"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YYe-o2-Cgt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MJ1-pg-ajO"/>
+                            <constraint firstItem="YYe-o2-Cgt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ow1-vw-UTG"/>
+                            <constraint firstAttribute="trailing" secondItem="YYe-o2-Cgt" secondAttribute="trailing" id="bT4-Y0-76w"/>
+                            <constraint firstItem="YYe-o2-Cgt" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="tm9-QA-Dph"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="8gb-jK-9xz" id="u1z-WE-ahl"/>
+                        <outlet property="scrollView" destination="YYe-o2-Cgt" id="eCp-WC-MSQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Steve" width="320" height="320"/>
+    </resources>
+</document>
