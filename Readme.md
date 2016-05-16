@@ -140,3 +140,22 @@ I'm lazy toda, followed this tutorial, write four lines of code to implement thi
 
 Video Tutorial: 
 <https://www.youtube.com/watch?v=nre-ALSA740>
+
+### Project 10 - VideoBackground 
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2010%20-%20VideoBackground/Project%2010%20-%20VideoBackground.gif?raw=true)
+
+
+
+It's time to use other code in your App.
+
+you got have this first : <https://github.com/movielala/VideoSplashKit>
+
+Then you can follow this video tutorial : <https://www.youtube.com/watch?v=dIoLsD9kBJ0&index=1&list=LLUS_GStRI7zBGfy1SVfDQOQ>
+ 
+
+And finally, I found a way to setup rounded corner button in Storyboard, just fantastic.
+<http://stackoverflow.com/questions/18384832/no-round-rect-button-in-xcode-5> 
+
+Also, notice did the lauchscreen view this time.
+
