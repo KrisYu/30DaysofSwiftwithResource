@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C851D3F81CEA2F22008EC75B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851D3F71CEA2F22008EC75B /* AppDelegate.swift */; };
+		C851D3FA1CEA2F22008EC75B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851D3F91CEA2F22008EC75B /* ViewController.swift */; };
+		C851D3FD1CEA2F22008EC75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C851D3FB1CEA2F22008EC75B /* Main.storyboard */; };
+		C851D3FF1CEA2F22008EC75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C851D3FE1CEA2F22008EC75B /* Assets.xcassets */; };
+		C851D4021CEA2F22008EC75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C851D4001CEA2F22008EC75B /* LaunchScreen.storyboard */; };
+		C851D40A1CEA2FF6008EC75B /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851D4091CEA2FF6008EC75B /* VideoCutter.swift */; };
+		C851D40C1CEA302C008EC75B /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C851D40B1CEA302C008EC75B /* VideoSplashViewController.swift */; };
+		C851D4101CEA3265008EC75B /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C851D40F1CEA3265008EC75B /* moments.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C851D3F41CEA2F22008EC75B /* Project 10 - VideoBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 10 - VideoBackground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C851D3F71CEA2F22008EC75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C851D3F91CEA2F22008EC75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C851D3FC1CEA2F22008EC75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C851D3FE1CEA2F22008EC75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C851D4011CEA2F22008EC75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C851D4031CEA2F22008EC75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C851D4091CEA2FF6008EC75B /* VideoCutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
+		C851D40B1CEA302C008EC75B /* VideoSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
+		C851D40F1CEA3265008EC75B /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C851D3F11CEA2F22008EC75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C851D3EB1CEA2F22008EC75B = {
+			isa = PBXGroup;
+			children = (
+				C851D3F61CEA2F22008EC75B /* Project 10 - VideoBackground */,
+				C851D3F51CEA2F22008EC75B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C851D3F51CEA2F22008EC75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C851D3F41CEA2F22008EC75B /* Project 10 - VideoBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C851D3F61CEA2F22008EC75B /* Project 10 - VideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				C851D40D1CEA309A008EC75B /* Video Background */,
+				C851D3F71CEA2F22008EC75B /* AppDelegate.swift */,
+				C851D3F91CEA2F22008EC75B /* ViewController.swift */,
+				C851D3FB1CEA2F22008EC75B /* Main.storyboard */,
+				C851D3FE1CEA2F22008EC75B /* Assets.xcassets */,
+				C851D4001CEA2F22008EC75B /* LaunchScreen.storyboard */,
+				C851D4031CEA2F22008EC75B /* Info.plist */,
+				C851D40F1CEA3265008EC75B /* moments.mp4 */,
+			);
+			path = "Project 10 - VideoBackground";
+			sourceTree = "<group>";
+		};
+		C851D40D1CEA309A008EC75B /* Video Background */ = {
+			isa = PBXGroup;
+			children = (
+				C851D4091CEA2FF6008EC75B /* VideoCutter.swift */,
+				C851D40B1CEA302C008EC75B /* VideoSplashViewController.swift */,
+			);
+			name = "Video Background";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C851D3F31CEA2F22008EC75B /* Project 10 - VideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C851D4061CEA2F22008EC75B /* Build configuration list for PBXNativeTarget "Project 10 - VideoBackground" */;
+			buildPhases = (
+				C851D3F01CEA2F22008EC75B /* Sources */,
+				C851D3F11CEA2F22008EC75B /* Frameworks */,
+				C851D3F21CEA2F22008EC75B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 10 - VideoBackground";
+			productName = "Project 10 - VideoBackground";
+			productReference = C851D3F41CEA2F22008EC75B /* Project 10 - VideoBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C851D3EC1CEA2F22008EC75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XueYu;
+				TargetAttributes = {
+					C851D3F31CEA2F22008EC75B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C851D3EF1CEA2F22008EC75B /* Build configuration list for PBXProject "Project 10 - VideoBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C851D3EB1CEA2F22008EC75B;
+			productRefGroup = C851D3F51CEA2F22008EC75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C851D3F31CEA2F22008EC75B /* Project 10 - VideoBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C851D3F21CEA2F22008EC75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851D4021CEA2F22008EC75B /* LaunchScreen.storyboard in Resources */,
+				C851D4101CEA3265008EC75B /* moments.mp4 in Resources */,
+				C851D3FF1CEA2F22008EC75B /* Assets.xcassets in Resources */,
+				C851D3FD1CEA2F22008EC75B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C851D3F01CEA2F22008EC75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C851D40A1CEA2FF6008EC75B /* VideoCutter.swift in Sources */,
+				C851D3FA1CEA2F22008EC75B /* ViewController.swift in Sources */,
+				C851D3F81CEA2F22008EC75B /* AppDelegate.swift in Sources */,
+				C851D40C1CEA302C008EC75B /* VideoSplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C851D3FB1CEA2F22008EC75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C851D3FC1CEA2F22008EC75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C851D4001CEA2F22008EC75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C851D4011CEA2F22008EC75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C851D4041CEA2F22008EC75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C851D4051CEA2F22008EC75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C851D4071CEA2F22008EC75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 10 - VideoBackground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.Project-10---VideoBackground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C851D4081CEA2F22008EC75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 10 - VideoBackground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.Project-10---VideoBackground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C851D3EF1CEA2F22008EC75B /* Build configuration list for PBXProject "Project 10 - VideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C851D4041CEA2F22008EC75B /* Debug */,
+				C851D4051CEA2F22008EC75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C851D4061CEA2F22008EC75B /* Build configuration list for PBXNativeTarget "Project 10 - VideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C851D4071CEA2F22008EC75B /* Debug */,
+				C851D4081CEA2F22008EC75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C851D3EC1CEA2F22008EC75B /* Project object */;
+}

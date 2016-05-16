@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_10___VideoBackground" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-SY-Ch7">
+                                <rect key="frame" x="20" y="532" width="560" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="D22-vd-muE"/>
+                                    <constraint firstAttribute="height" constant="48" id="VuR-my-cnP"/>
+                                </constraints>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="VuR-my-cnP"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-l2-ORg">
+                                <rect key="frame" x="191" y="60" width="218" height="66"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru1-9k-itN">
+                                <rect key="frame" x="20" y="474" width="560" height="48"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="D8n-xH-46M"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Diy-QB-aVV"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="width" secondItem="Ru1-9k-itN" secondAttribute="width" id="Fi4-Cb-jKg"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="height" secondItem="Ru1-9k-itN" secondAttribute="height" id="Iyf-3x-t9Z"/>
+                            <constraint firstItem="Sf0-l2-ORg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="WVz-iN-UmK"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="width" secondItem="Ru1-9k-itN" secondAttribute="width" id="ZWb-po-3es"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="Ztd-7w-B8S"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="top" secondItem="Ru1-9k-itN" secondAttribute="bottom" constant="10" id="ia2-tM-bAx"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="jkk-Sx-5KJ"/>
+                            <constraint firstItem="Ru1-9k-itN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ksd-Sq-3uY"/>
+                            <constraint firstItem="Sf0-l2-ORg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lZn-Z3-s2T"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qFf-iW-igo"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="rSm-Wo-0Iq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JaS-SY-Ch7" secondAttribute="bottom" constant="20" id="tJT-RL-H25"/>
+                            <constraint firstItem="JaS-SY-Ch7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vkn-sb-EAH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="D8n-xH-46M"/>
+                                <exclude reference="Fi4-Cb-jKg"/>
+                                <exclude reference="Ztd-7w-B8S"/>
+                                <exclude reference="jkk-Sx-5KJ"/>
+                                <exclude reference="rSm-Wo-0Iq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login-secondary-logo" width="218" height="66"/>
+    </resources>
+</document>
