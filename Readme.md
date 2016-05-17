@@ -159,3 +159,16 @@ And finally, I found a way to setup rounded corner button in Storyboard, just fa
 
 Also, notice did the lauchscreen view this time.
 
+
+### Project 11 - ClearTableViewCell
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2011%20-%20ClearTableViewCell/Project%2011%20-%20ClearTableViewCell.gif?raw=true)
+
+Custom cell background can use this, tableView ...willDisplayCell...., actually just use the ClearTableViewController I can get quite decent look .
+
+But Custom the cell can make the gradient more elegent.
+
+Tutorial 
+<https://www.raywenderlich.com/77974/making-a-gesture-driven-to-do-list-app-like-clear-in-swift-part-1>
+ 
+    

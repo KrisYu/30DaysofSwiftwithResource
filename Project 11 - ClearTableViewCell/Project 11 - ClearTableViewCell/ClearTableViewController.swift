@@ -10,7 +10,7 @@ import UIKit
 
 class ClearTableViewController: UITableViewController {
     
-    var tableData = ["Watch 3rd episode","Write email to prof","Meet Ash for dinner","Talk with mom","Practise driving","Another Swift project","play PingPong with Guo","Invite everyone play","The meaning of life","Grow up, be strong","Read KevinZhou's tutorial","Ready for Summer","Love my life"]
+    var tableData = ["Watch 3rd episode","Write email to prof","Meet Ash for dinner","Talk with mom","Practise driving","Another Swift project","play PingPong with Guo","Invite everyone play","The meaning of life","Grow up, be strong","Read KevinZhou's tutorial","Ready for Summer"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
