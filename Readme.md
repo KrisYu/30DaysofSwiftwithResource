@@ -170,5 +170,25 @@ But Custom the cell can make the gradient more elegent.
 
 Tutorial 
 <https://www.raywenderlich.com/77974/making-a-gesture-driven-to-do-list-app-like-clear-in-swift-part-1>
+
+
+
+### Project 12 - LoginAnimation
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2012%20-%20LoginAnimation/Project%2012%20-%20LoginAnimation.gif?raw=true)
+
+It didn't take me long to build the UI and contraints, but later when I try to implement the animation it really took me a long time to figure out why, I found that the autolayout constraints may make the animation not function right.
+
+I tried to follow this tutorial, it will funtion on the author's project, but not mine.
+
+<https://www.raywenderlich.com/113674/ios-animation-tutorial-getting-started>
+
+
+But still, I remember that constaints are also objects, that's why I can try to implement that as Allen's way.
  
+ 
+And after I have finished implement, I found this tutorial :
+<http://www.appcoda.com/view-animation-in-swift/>
+
+You can follow.
     
