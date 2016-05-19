@@ -192,3 +192,14 @@ And after I have finished implement, I found this tutorial :
 
 You can follow.
     
+    
+### Project 13 - AnimateTableViewCell
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2013%20-%20AnimateTableViewCell/Project%2013%20-%20AnimateTableViewCel.gif?raw=true)
+
+
+This project is just an extend of Project 11, but with more animation. It feels like a combination of project 11 and 12.
+
+And Doing this project I typed a lot of repeat code, there must be some way to solve this except copy, like maybe extension or other things. And this is to be learn.
+ 
+
