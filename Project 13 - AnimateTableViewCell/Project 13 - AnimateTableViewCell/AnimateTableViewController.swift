@@ -1,0 +1,100 @@
+//
+//  AnimateTableViewController.swift
+//  Project 13 - AnimateTableViewCell
+//
+//  Created by 雪 禹 on 5/19/16.
+//  Copyright © 2016 XueYu. All rights reserved.
+//
+
+import UIKit
+
+class AnimateTableViewController: UITableViewController {
+    
+    var tableData = ["Watch 3rd episode","Write email to prof","Meet Ash for dinner","Talk with mom","Practise driving","Another Swift project","play PingPong with Guo","Invite everyone play","The meaning of life","Grow up, be strong","Read KevinZhou's tutorial","Ready for Summer"]
+
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        UIApplication.sharedApplication().statusBarHidden = true
+
+        self.view.backgroundColor = UIColor.blackColor()
+        self.tableView.separatorStyle = .None
+        self.tableView.tableFooterView = UIView(frame:CGRectZero)
+        self.tableView.registerClass(SecondTableCell.self, forCellReuseIdentifier: "SecondTableCell")
+    
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
+    
+    
+    // MARK: - Animation
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        animation()
+    }
+    
+    func animation(){
+        
+        self.tableView.reloadData()
+        
+        let cells = tableView.visibleCells
+        let tableHeight = tableView.bounds.size.height
+        
+        for (index, cell) in cells.enumerate() {
+            cell.transform = CGAffineTransformMakeTranslation(0, tableHeight)
+            UIView.animateWithDuration(1.0, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: { 
+                cell.transform = CGAffineTransformMakeTranslation(0, 0)
+                }, completion: nil)
+        }
+    }
+
+    // MARK: - Table view data source
+
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tableData.count
+    }
+    
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 60
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("SecondTableCell", forIndexPath: indexPath)
+
+        cell.textLabel?.text = tableData[indexPath.row]
+        cell.textLabel?.textColor = UIColor.whiteColor()
+        cell.textLabel?.backgroundColor = UIColor.clearColor()
+        cell.textLabel?.font = UIFont(name: "Avenir Next",size: 18)
+        cell.selectionStyle = .None
+        
+        return cell
+    }
+    
+    
+    // MAKR: - color for cell
+    
+    func colorforIndex(index: Int) -> UIColor {
+        
+        let itemCount = tableData.count - 1
+        let color = (CGFloat(index) / CGFloat(itemCount)) * 0.6
+        return UIColor(red: 1.0, green: color, blue: 0.0, alpha: 1.0)
+    }
+    
+    override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        cell.backgroundColor = colorforIndex(indexPath.row)
+        
+    }
+
+}
