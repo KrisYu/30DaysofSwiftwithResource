@@ -202,4 +202,17 @@ This project is just an extend of Project 11, but with more animation. It feels 
 
 And Doing this project I typed a lot of repeat code, there must be some way to solve this except copy, like maybe extension or other things. And this is to be learn.
  
+ 
+### Project 14 - EmojiSlotMachine
 
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2014%20-%20EmojiSlotMachine/Project%2014-%20EmojiSlotMachine.gif?raw=true)
+
+3 ways to generate random number in Swift :
+<http://stackoverflow.com/questions/32552336/generating-random-numbers-with-swift-2>
+
+
+	let random = Int(arc4random_uniform(imageArray.count))
+	
+would be a better choice.
+
+Also, I made some changes to orginal code.
