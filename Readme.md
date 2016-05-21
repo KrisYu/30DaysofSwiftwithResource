@@ -216,3 +216,17 @@ And Doing this project I typed a lot of repeat code, there must be some way to s
 would be a better choice.
 
 Also, I made some changes to orginal code.
+
+### Project 15 - AnimatedSplash
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2015%20-%20AnimatedSplash/Project%2015%20-%20AnimatedSplash.gif?raw=true)
+
+Tutorial :
+<http://iosdevtips.co/post/88481653818/twitter-ios-app-bird-zoom-animation>
+and here:
+
+<http://qiita.com/okmr-d/items/07731aa1ede2998d823d>
+
+It is very interesting that all the code are written in AppDelegate.Swift, since this only concerns the first time that the App launches. 
+
+Also some code difference.
