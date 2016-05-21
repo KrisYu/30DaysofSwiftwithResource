@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8EF4A791CF09BB300246582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF4A781CF09BB300246582 /* AppDelegate.swift */; };
+		C8EF4A7B1CF09BB300246582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF4A7A1CF09BB300246582 /* ViewController.swift */; };
+		C8EF4A7E1CF09BB300246582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EF4A7C1CF09BB300246582 /* Main.storyboard */; };
+		C8EF4A801CF09BB300246582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EF4A7F1CF09BB300246582 /* Assets.xcassets */; };
+		C8EF4A831CF09BB300246582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EF4A811CF09BB300246582 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8EF4A751CF09BB300246582 /* Project 15 - AnimatedSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 15 - AnimatedSplash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8EF4A781CF09BB300246582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8EF4A7A1CF09BB300246582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8EF4A7D1CF09BB300246582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8EF4A7F1CF09BB300246582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8EF4A821CF09BB300246582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8EF4A841CF09BB300246582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8EF4A721CF09BB300246582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8EF4A6C1CF09BB300246582 = {
+			isa = PBXGroup;
+			children = (
+				C8EF4A771CF09BB300246582 /* Project 15 - AnimatedSplash */,
+				C8EF4A761CF09BB300246582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8EF4A761CF09BB300246582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF4A751CF09BB300246582 /* Project 15 - AnimatedSplash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8EF4A771CF09BB300246582 /* Project 15 - AnimatedSplash */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF4A781CF09BB300246582 /* AppDelegate.swift */,
+				C8EF4A7A1CF09BB300246582 /* ViewController.swift */,
+				C8EF4A7C1CF09BB300246582 /* Main.storyboard */,
+				C8EF4A7F1CF09BB300246582 /* Assets.xcassets */,
+				C8EF4A811CF09BB300246582 /* LaunchScreen.storyboard */,
+				C8EF4A841CF09BB300246582 /* Info.plist */,
+			);
+			path = "Project 15 - AnimatedSplash";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8EF4A741CF09BB300246582 /* Project 15 - AnimatedSplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8EF4A871CF09BB300246582 /* Build configuration list for PBXNativeTarget "Project 15 - AnimatedSplash" */;
+			buildPhases = (
+				C8EF4A711CF09BB300246582 /* Sources */,
+				C8EF4A721CF09BB300246582 /* Frameworks */,
+				C8EF4A731CF09BB300246582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 15 - AnimatedSplash";
+			productName = "Project 15 - AnimatedSplash";
+			productReference = C8EF4A751CF09BB300246582 /* Project 15 - AnimatedSplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8EF4A6D1CF09BB300246582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XueYu;
+				TargetAttributes = {
+					C8EF4A741CF09BB300246582 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C8EF4A701CF09BB300246582 /* Build configuration list for PBXProject "Project 15 - AnimatedSplash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8EF4A6C1CF09BB300246582;
+			productRefGroup = C8EF4A761CF09BB300246582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8EF4A741CF09BB300246582 /* Project 15 - AnimatedSplash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8EF4A731CF09BB300246582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF4A831CF09BB300246582 /* LaunchScreen.storyboard in Resources */,
+				C8EF4A801CF09BB300246582 /* Assets.xcassets in Resources */,
+				C8EF4A7E1CF09BB300246582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8EF4A711CF09BB300246582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EF4A7B1CF09BB300246582 /* ViewController.swift in Sources */,
+				C8EF4A791CF09BB300246582 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8EF4A7C1CF09BB300246582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8EF4A7D1CF09BB300246582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8EF4A811CF09BB300246582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8EF4A821CF09BB300246582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8EF4A851CF09BB300246582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8EF4A861CF09BB300246582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8EF4A881CF09BB300246582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 15 - AnimatedSplash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.Project-15---AnimatedSplash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8EF4A891CF09BB300246582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 15 - AnimatedSplash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.Project-15---AnimatedSplash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8EF4A701CF09BB300246582 /* Build configuration list for PBXProject "Project 15 - AnimatedSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF4A851CF09BB300246582 /* Debug */,
+				C8EF4A861CF09BB300246582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8EF4A871CF09BB300246582 /* Build configuration list for PBXNativeTarget "Project 15 - AnimatedSplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF4A881CF09BB300246582 /* Debug */,
+				C8EF4A891CF09BB300246582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8EF4A6D1CF09BB300246582 /* Project object */;
+}
