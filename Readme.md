@@ -230,3 +230,16 @@ and here:
 It is very interesting that all the code are written in AppDelegate.Swift, since this only concerns the first time that the App launches. 
 
 Also some code difference.
+
+### Project 16 - SlideMenu
+
+![](https://github.com/KrisYu/30DaysofSwiftwithResource/blob/master/Project%2016%20-%20SlideMenu/Project16%20-SlideMenu.gif?raw=true)
+
+animateWithDuration is type method，just UIColor.greenColor(), alwasy start with UIView.animateWithDuration....
+
+I implement this via this way.
+
+<https://github.com/ldbchan/SlideMenu_iOS>
+
+And great tutorial to be learned here :
+<http://mathewsanders.com/prototyping-iOS-iPhone-iPad-animations-in-swift/#why-xcode>
